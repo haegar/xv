@@ -1,0 +1,17 @@
+# This is how the Debian source tarball was created:
+
+wget ftp://ftp.trilon.com/pub/xv/xv-3.10a.tar.gz
+wget --content-disposition http://prdownloads.sourceforge.net/png-mng/xv-3.10a-jumbo-patches-20070520.tar.gz?download
+wget http://www.sonic.net/~roelofs/code/xv-3.10a-enhancements.20070520-20081216.diff
+
+tar xvzf xv-3.10a-jumbo-patches-20070520.tar.gz
+tar xvzf xv-3.10a.tar.gz
+pushd xv-3.10a
+patch -p1 < ../xv-3.10a-jumbo-fix-enh-patch-20070520.txt
+patch -p1 < ../xv-3.10a-enhancements.20070520-20081216.diff
+popd
+
+rm -f xv-3.10a.tar.gz xv-3.10a-jumbo-patches-20070520.tar.gz xv-3.10a-jumbo-fix-enh-patch-20070520.txt xv-3.10a-enhancements.20070520-20081216.diff
+
+mv -f xv-3.10a xv-3.10a+jumbo20081216
+tar cvzf xv_3.10a+jumbo20081216.orig.tar.gz xv-3.10a+jumbo20081216

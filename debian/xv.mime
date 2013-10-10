@@ -1,0 +1,16 @@
+image/gif; xv %s; description="GIF Image"; test=test "$DISPLAY"; priority=3
+image/jpeg; xv %s; description="JPEG Image"; test=test "$DISPLAY"; priority=3
+image/tiff; xv %s; description="TIFF Image"; test=test "$DISPLAY"; priority=3
+image/postscript; xv %s; description="Postscript Image"; test=test "$DISPLAY"; priority=3
+image/x-portable-bitmap; xv %s; description="PBM Image"; test=test "$DISPLAY"; priority=3
+image/x-portable-graymap; xv %s; description="PGM Image"; test=test "$DISPLAY"; priority=3
+image/x-portable-pixmap; xv %s; description="PPM Image"; test=test "$DISPLAY"; priority=3
+image/x-xbitmap; xv %s; description="XBM Image"; test=test "$DISPLAY"; priority=3
+image/x-xpixmap; xv %s; description="XPM Image"; test=test "$DISPLAY"; priority=3
+image/x-ms-bmp; xv %s; description="BMP Image"; test=test "$DISPLAY"; priority=3
+image/cmu-raster; xv %s; description="CMU-RasterFile Image"; test=test "$DISPLAY"; priority=3
+image/x-rgb; xv %s; description="RGB Image"; test=test "$DISPLAY"; priority=3
+image/targa; xv %s; description="TARGA Image"; test=test "$DISPLAY"; priority=3
+image/fits; xv %s; description="FITS Image"; test=test "$DISPLAY"; priority=3
+image/png; xv %s; description="PNG Image"; test=test "$DISPLAY"; priority=3
+image/pm; xv %s; description="PM Image"; test=test "$DISPLAY"; priority=3

@@ -1,0 +1,12 @@
+xv (1:3.10a+jumbo20081216-1) unstable; urgency=low
+
+  * Initial release.
+  * Merge XV Jumbo Patches of 20070520 and interim patch of 20081216.
+  * Fix format string vulnerabilities.
+  * Fix hyphen-used-as-minus-sign.
+  * Apply CFLAGS, CPPFLAGS and LDFLAGS to CCOPTS to enable hardening.
+  * Link against shared system libjasper.
+  * Add xv.png and xv.xpm icons from upstream xvlogo.gif logo.
+  * Add xv.desktop file.
+
+ -- Fabian Greffrath <fabian+debian@greffrath.com>  Thu, 10 Oct 2013 09:47:55 +0200

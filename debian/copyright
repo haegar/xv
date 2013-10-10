@@ -1,0 +1,397 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: XV
+               XV Jumbo Patches
+Upstream-Contact: John Bradley <bradley@trilon.com>
+                  Greg Roelofs
+Source: http://www.trilon.com/xv/
+        http://www.sonic.net/~roelofs/greg_xv.html
+
+Files: *
+Copyright: © 1989-1994, John Bradley
+           © 2000-2007, Greg Roelofs and contributors
+License: other
+ Permission to copy and distribute XV in its entirety, for non-commercial
+ purposes, is hereby granted without fee, provided that this license
+ information and copyright notice appear unmodified in all copies.
+ .
+ Note that distributing XV 'bundled' in with any product is considered
+ to be a 'commercial purpose'.
+ .
+ Also note that any copies of XV that are distributed must be built
+ and/or configured to be in their 'unregistered copy' mode, so that it
+ is made obvious to the user that XV is shareware, and that they should
+ consider donating, or at least reading this License Info.
+ .
+ The software may be modified for your own purposes, but modified
+ versions may not be distributed without prior consent of the author.
+ .
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ If you would like to do something with XV that this copyright
+ prohibits (such as distributing it with a commercial product,
+ using portions of the source in some other program, etc.), please
+ contact the author (preferably via email).  Arrangements can
+ probably be worked out.
+ .
+ XV is shareware for PERSONAL USE only.  You may use XV for your own
+ amusement, and if you find it nifty, useful, generally cool, or of
+ some value to you, your non-deductable donation would be greatly
+ appreciated.  $25 is the suggested donation, though, of course,
+ larger donations are quite welcome.  Folks who donate $25 or more
+ can receive a Real Nice bound copy of the XV manual for no extra
+ charge.
+ .
+ Commercial, government, and institutional users must register their
+ copies of XV, for the price of $25 per workstation/X terminal or per
+ XV user, whichever is less.  Note that it does NOT say 'simultaneous user',
+ but rather, the total number of people who use XV on any sort of
+ recurring basis. Site licenses are available (and recommended) for those
+ who wish to run XV on a large (>10) number of machines.
+ Contact the author for more details.
+ .
+ The author may be contacted via:
+ .
+    Email:    bradley@cis.upenn.edu       (preferred!)
+ .
+    FAX:      (610) 520-2042
+ .
+    US Mail:  John Bradley
+              1053 Floyd Terrace
+              Bryn Mawr, PA  19010
+ .
+ The author may not be contacted by (voice) phone.  Please don't try.
+ .
+ Portions copyright 2000-2007 by Greg Roelofs and contributors:
+ .
+   Andrey A. Chernov [ache]
+     (http://cvsweb.freebsd.org/ports/graphics/xv/files/patch-ab)
+   Andreas Dilger (adilger clusterfs.com)
+   Alexander Lehmann (lehmann usa.net)
+   Alexey Spiridonov (http://www-math.mit.edu/~lesha/)
+   Anthony Thyssen (http://www.cit.gu.edu.au/~anthony/)
+   Bruno Rohee (http://bruno.rohee.com/)
+   David A. Clunie (http://www.dclunie.com/xv-pcd.html)
+   Erling A. Jacobsen (linuxcub email.dk)
+   Egmont Koblinger (egmont users.sourceforge.net)
+   Fabian Greffrath (fabian debian-unofficial.org)
+   Greg Roelofs (http://pobox.com/~newt/greg_contact.html)
+   Guido Vollbeding (http://sylvana.net/guido/)
+   IKEMOTO Masahiro (ikeyan airlab.cs.ritsumei.ac.jp)
+   John Cooper (john.cooper third-harmonic.com)
+   John C. Elliott (http://www.seasip.demon.co.uk/ZX/zxdload.html)
+   John D. Baker (http://mylinuxisp.com/~jdbaker/)
+   Jörgen Grahn (jgrahn algonet.se)
+   John H. Bradley, of course (http://www.trilon.com/xv/)
+   Jean-Pierre Demailly (http://www-fourier.ujf-grenoble.fr/~demailly/)
+   John Rochester (http://www.freebsd.org/cgi/query-pr.cgi?pr=2920)
+   (also http://cvsweb.freebsd.org/ports/graphics/xv/files/patch-af, -ag)
+   James Roberts Kirkpatrick (uwyo.edu)
+   Joe Zbiciak (http://spatula-city.org/~im14u2c/)
+   Kyoichiro Suda (http://www.coara.or.jp/~sudakyo/XV_jp.html)
+   Landon Curt "chongo" Noll (http://www.isthe.com/chongo/)
+   Larry Jones (lawrence.jones ugs.com)
+   Peter Jordan (http://www.ibiblio.org/pub/Linux/apps/graphics/viewers/X/)
+   Pawel S. Veselov (http://manticore.2y.net/wbmp.html)
+   Ross Combs (rocombs cs.nmsu.edu)
+   Robin Humble (http://www.cita.utoronto.ca/~rjh/)
+   Sean Borman (http://www.nd.edu/~sborman/software/xvwheelmouse.html)
+   TenThumbs (tenthumbs cybernex.net)
+   Scott B. Marovich (formerly marovich hpl.hp.com)
+   Tim Adye (http://hepwww.rl.ac.uk/Adye/xv-psnewstyle.html)
+   Tim Ramsey (tar pobox.com)
+   Tetsuya INOUE (tin329 chino.it.okayama-u.ac.jp)
+   Tavis Ormandy (taviso gentoo.org)
+   Werner Fink (http://www.suse.de/~werner/)
+ .
+ Other credits are as listed on the XV Downloads page or in the respective
+ patches (e.g., the jp-extension patches or within the PNG patch).
+Comment:
+ From: Daniel Kirchheimer <kirchh@trilon.com>
+ To: fabian@ep1.rub.de
+ Subject: RE: Again: Request for the permission to release xv, PLEASE ANSWER
+ Date: Mon, 5 Dec 2005 18:44:25 -0500
+ .
+ Greetings. Mr. Bradley has moved to South America and become a warrior-god
+ to some hitherto-unknown Amazon river tribe. However, he advises that he
+ grants you permission to distribute the modified version of XV as long as
+ all license agreements and other terms are distributed with the code as per
+ the terms of the license.
+ .
+ Actually, he just doesn't like talking to people -- that's what he has me
+ for!
+ .
+ Best regards --
+ --Daniel
+ .
+ All license agreements and other terms can be found in `/usr/share/doc/xv/README.gz'.
+
+Files: vprintf.c
+Copyright: © 1989, Robert A. Larson
+License: other
+ Distribution in any form is allowed as long as the author
+ retains credit, changes are noted by their author and the
+ copyright message remains intact.  This program comes as-is
+ with no warentee of fitness for any purpouse.
+
+Files: xv24to8.c
+Copyright: © 1989-1991, Jef Poskanzer
+           © 1991-1994, Thomas G. Lane
+License: other
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies and that both that
+ copyright notice and this permission notice appear in supporting
+ documentation.  This software is provided "as is" without express or
+ implied warranty.
+
+Files: xvbrowse.c
+Copyright: © 1988, The Regents of the University of California
+License: BSD
+ This code is derived from software contributed to Berkeley by
+ David Hitz of Auspex Systems Inc.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+    This product includes software developed by the University of
+    California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+Files: xvfits.c
+Copyright: © 1992-1994, David Robinson
+License: other
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies.  This software is
+ provided "as is" without express or implied warranty.
+
+Files: xvgif.c
+Copyright: © 1988-1989, Patrick J. Naughton
+License: other
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted,
+ provided that the above copyright notice appear in all copies and that
+ both that copyright notice and this permission notice appear in
+ supporting documentation.
+ .
+ This file is provided AS IS with no warranties of any kind.  The author
+ shall have no liability with respect to the infringement of copyrights,
+ trade secrets or any patents by this file or any part thereof.  In no
+ event will the author be liable for any lost revenue or profits or
+ other special, indirect and consequential damages.
+
+Files: xvgifwr.c
+Copyright: © 1989, Michael Mauldin
+License: other
+ Permission is granted to use this file in whole or in
+ part for any purpose, educational, recreational or commercial,
+ provided that this copyright notice is retained unchanged.
+ This software is available to all free of charge by anonymous
+ FTP and in the UUNET archives.
+
+Files: xvhips.c
+Copyright: © 1989-1990, The University of Pennsylvania
+License: other
+ Permission to use, copy, and distribute for non-commercial purposes,
+ is hereby granted without fee, providing that the above copyright
+ notice appear in all copies and that both the copyright notice and this
+ permission notice appear in supporting documentation.
+ .
+ The software may be modified for your own purposes, but modified versions
+ may not be distributed.
+ .
+ This software is provided "as is" without any express or implied warranty.
+
+Files: xviff.c
+Copyright: © 1993, Thomas Meyer
+License: other
+ Permission is hereby granted to use this code only as a part of
+ the xv distribution by John Bradley.
+
+Files: xvmisc.c
+Copyright: © 1988, Regents of the University of California
+License: other
+ Permission to use, copy, modify, and distribute this
+ software and its documentation for any purpose and without
+ fee is hereby granted, provided that the above copyright
+ notice appear in all copies.  The University of California
+ makes no representations about the suitability of this
+ software for any purpose.  It is provided "as is" without
+ express or implied warranty.
+
+Files:
+ README.pcd
+ xvpcd.c
+Copyright: © 1993, David Clunie
+License: other
+ * The outline of this is shamelessly derived from xvpbm.c to read the
+ * file, and xvtiffwr.c to handle the popup window and X stuff (X never
+ * has been my forte !), and the PhotoCD format information (though not
+ * the code) was found in Hadmut Danisch's (danisch@ira.uka.de) hpcdtoppm
+ * program in which he has reverse engineered the format by studying
+ * hex dumps of PhotoCDs ! After all who can afford the Kodak developer's
+ * kit, which none of us have seen yet ? Am I even allowed to mention these
+ * words (Kodak, PhotoCD) ? I presume they are registered trade marks.
+
+Files: xvpds.c
+Copyright: © 1989-1990, Anthony A. Datri
+License: other
+ Permission to use, copy, and distribute for non-commercial purposes,
+ is hereby granted without fee, providing that the above copyright
+ notice appear in all copies, that both the copyright notice and this
+ permission notice appear in supporting documentation.
+ .
+ In exception to the above, permission to John Bradley is hereby granted to
+ distribute this code as he sees fit within the context of his "xv" image
+ viewer.
+ .
+ This software is provided "as is" without any express or implied warranty.
+
+Files: xvpng.c
+Copyright: © 1995, Alexander Lehmann
+License: other
+ This file is a suplement to xv and is supplied under the same copying
+ conditions (except the shareware part).
+ The copyright will be passed on to JB at some future point if he
+ so desires.
+
+Files: xvxwd.c
+Copyright: © 1989-1991, Jef Poskanzer
+License: other
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies and that both that
+ copyright notice and this permission notice appear in supporting
+ documentation.  This software is provided "as is" without express or
+ implied warranty.
+
+Files: xvimage.c
+       jpeg/*
+Copyright: © 1991-1994, Thomas G. Lane
+License: other
+ In plain English:
+ .
+ 1. We don't promise that this software works.  (But if you find any bugs,
+    please let us know!)
+ 2. You can use this software for whatever you want.  You don't have to pay us.
+ 3. You may not pretend that you wrote this software.  If you use it in a
+    program, you must acknowledge somewhere in your documentation that
+    you've used the IJG code.
+ .
+ In legalese:
+ .
+ The authors make NO WARRANTY or representation, either express or implied,
+ with respect to this software, its quality, accuracy, merchantability, or
+ fitness for a particular purpose.  This software is provided "AS IS", and you,
+ its user, assume the entire risk as to its quality and accuracy.
+ .
+ This software is copyright (C) 1991, 1992, 1993, 1994, Thomas G. Lane.
+ All Rights Reserved except as specified below.
+ .
+ Permission is hereby granted to use, copy, modify, and distribute this
+ software (or portions thereof) for any purpose, without fee, subject to these
+ conditions:
+ (1) If any part of the source code for this software is distributed, then this
+ README file must be included, with this copyright and no-warranty notice
+ unaltered; and any additions, deletions, or changes to the original files
+ must be clearly indicated in accompanying documentation.
+ (2) If only executable code is distributed, then the accompanying
+ documentation must state that "this software is based in part on the work of
+ the Independent JPEG Group".
+ (3) Permission for use of this software is granted only if the user accepts
+ full responsibility for any undesirable consequences; the authors accept
+ NO LIABILITY for damages of any kind.
+ .
+ These conditions apply to any software derived from or based on the IJG code,
+ not just to the unmodified library.  If you use our work, you ought to
+ acknowledge us.
+ .
+ Permission is NOT granted for the use of any IJG author's name or company name
+ in advertising or publicity relating to this software or products derived from
+ it.  This software may be referred to only as "the Independent JPEG Group's
+ software".
+ .
+ We specifically permit and encourage the use of this software as the basis of
+ commercial products, provided that all warranty or liability claims are
+ assumed by the product vendor.
+ .
+ ansi2knr.c is included in this distribution by permission of L. Peter Deutsch,
+ sole proprietor of its copyright holder, Aladdin Enterprises of Menlo Park, CA.
+ ansi2knr.c is NOT covered by the above copyright and conditions, but instead
+ by the usual distribution terms of the Free Software Foundation; principally,
+ that you must include source code if you redistribute it.  (See the file
+ ansi2knr.c for full details.)  However, since ansi2knr.c is not needed as part
+ of any program generated from the IJG code, this does not limit you more than
+ the foregoing paragraphs do.
+ .
+ The configuration script "configure" was produced with GNU Autoconf.  It
+ is copyright by the Free Software Foundation but is freely distributable.
+ .
+ It appears that the arithmetic coding option of the JPEG spec is covered by
+ patents owned by IBM, AT&T, and Mitsubishi.  Hence arithmetic coding cannot
+ legally be used without obtaining one or more licenses.  For this reason,
+ support for arithmetic coding has been removed from the free JPEG software.
+ (Since arithmetic coding provides only a marginal gain over the unpatented
+ Huffman mode, it is unlikely that very many implementations will support it.)
+ So far as we are aware, there are no patent restrictions on the remaining
+ code.
+ .
+ We are required to state that
+    "The Graphics Interchange Format(c) is the Copyright property of
+    CompuServe Incorporated.  GIF(sm) is a Service Mark property of
+    CompuServe Incorporated."
+
+Files: xvtiff.c
+       tiff/*
+Copyright: © 1988-1994, Sam Leffler
+           © 1991-1994, Silicon Graphics, Inc.
+License: other
+ Permission to use, copy, modify, distribute, and sell this software and
+ its documentation for any purpose is hereby granted without fee, provided
+ that (i) the above copyright notices and this permission notice appear in
+ all copies of the software and related documentation, and (ii) the names of
+ Sam Leffler and Silicon Graphics may not be used in any advertising or
+ publicity relating to the software without the specific, prior written
+ permission of Sam Leffler and Silicon Graphics.
+ .
+ THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+ WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
+ ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+ OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+ WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
+ LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+ OF THIS SOFTWARE.
+
+Files: debian/*
+Copyright: © 2005-2013, Fabian Greffrath <fabian+debian@greffrath.com>
+License: GNU All-Permissive License
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.  This file is offered as-is,
+ without any warranty.

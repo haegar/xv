@@ -1,0 +1,3 @@
+version=3
+opts="dversionmangle=s/.*jumbo//" \
+http://sf.net/png-mng/xv-3.10a-jumbo-patches-(.*)\.tar\.gz

@@ -1,0 +1,10 @@
+Document: xv-doc
+Title: XV documentation
+Author: John Bradley
+Section: Graphics
+
+Format: PDF
+Files: /usr/share/doc/xv-doc/xvdocs.pdf.gz
+
+Format: PostScript
+Files: /usr/share/doc/xv-doc/xvdocs.ps.gz

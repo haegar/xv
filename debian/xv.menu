@@ -1,0 +1,6 @@
+?package(xv):needs="X11" \
+  section="Applications/Graphics" \
+  title="XV" \
+  longtitle="interactive image manipulation program" \
+  command="/usr/bin/xv" \
+  icon="/usr/share/pixmaps/xv.xpm"

@@ -1,0 +1,5 @@
+debian/xv.desktop usr/share/applications
+debian/xv.png usr/share/icons/hicolor/32x32/apps
+debian/xv.xpm usr/share/pixmaps
+usr/bin
+usr/share/man

@@ -1,0 +1,53 @@
+Source: xv
+Section: non-free/graphics
+Priority: optional
+Maintainer: Fabian Greffrath <fabian+debian@greffrath.com>
+Build-Depends:
+ debhelper (>= 9),
+ libjasper-dev,
+ libjpeg-dev,
+ libpng12-dev,
+ libtiff4-dev,
+ libx11-dev,
+ zlib1g-dev
+Standards-Version: 3.9.4
+Homepage: http://www.trilon.com/xv/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/xv.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/xv.git
+
+Package: xv
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Recommends:
+ ghostscript
+Description: interactive image manipulation program
+ XV is an interactive image manipulation program for the X Window System. It
+ can operate on images in the GIF, JPEG, TIFF, PBM, PGM, PPM, XPM, X11 bitmap,
+ Sun Rasterfile, Targa, RLE, RGB, BMP, PCX, FITS, and PM formats on all known
+ types of X displays. It can generate PostScript files, and if you have
+ ghostscript installed on your machine, it can also display them.
+ .
+ The XV "jumbo" patches are a pair of aggregate patches against XV 3.10a, which
+ was last released in December 1994. The first jumbo patch incorporates roughly
+ two dozen bugfixes. The second patch encompasses almost as many enhancements,
+ including support for additional image formats like PNG, PhotoCD, and PDF;
+ performance improvements; and new features such as mouse-wheel support, alpha
+ blending against a background color, and improved dithering for 15/16-bit
+ displays. All patches available from the official XV site are included, as
+ well as numerous other patches from around the world.
+
+Package: xv-doc
+Section: non-free/doc
+Architecture: all
+Depends:
+ ${misc:Depends}
+Description: interactive image manipulation program (documentation)
+ XV is an interactive image manipulation program for the X Window System. It
+ can operate on images in the GIF, JPEG, TIFF, PBM, PGM, PPM, XPM, X11 bitmap,
+ Sun Rasterfile, Targa, RLE, RGB, BMP, PCX, FITS, and PM formats on all known
+ types of X displays. It can generate PostScript files, and if you have
+ ghostscript installed on your machine, it can also display them.
+ .
+ This package contains the documentation.
