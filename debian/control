@@ -7,7 +7,7 @@ Build-Depends:
  libjasper-dev,
  libjpeg-dev,
  libpng12-dev,
- libtiff4-dev,
+ libtiff5-dev,
  libx11-dev,
  zlib1g-dev
 Standards-Version: 3.9.4
