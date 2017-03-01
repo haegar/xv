@@ -16,8 +16,7 @@ debian/xv.xpm: debian/xv.png
 override_dh_auto_build:
 	dh_auto_build -- \
 		PREFIX=/usr \
-		CCOPTS="$(CFLAGS) $(CPPFLAGS) $(LDFLAGS)" \
-		JP2KLIB="-ljasper"
+		CCOPTS="$(CFLAGS) $(CPPFLAGS) $(LDFLAGS)"
 
 override_dh_auto_install:
 	dh_auto_install -- PREFIX=/usr

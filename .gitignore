@@ -1,0 +1,5 @@
+/.pc
+/debian/xv-doc.debhelper.log
+/debian/xv.debhelper.log
+*~
+*.o

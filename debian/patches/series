@@ -1,2 +1,4 @@
 hyphen-used-as-minus-sign.patch
 format-security.patch
+libpng-1.5.diff
+disable-jasper.diff

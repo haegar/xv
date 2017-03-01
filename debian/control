@@ -1,16 +1,15 @@
 Source: xv
 Section: non-free/graphics
 Priority: optional
-Maintainer: Fabian Greffrath <fabian+debian@greffrath.com>
+Maintainer: Sven-Haegar Koch <haegar@sdinet.de>
 Build-Depends:
  debhelper (>= 9),
- libjasper-dev,
  libjpeg-dev,
- libpng12-dev,
+ libpng-dev (>= 1.5),
  libtiff-dev,
  libx11-dev,
  zlib1g-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.8
 Homepage: http://www.trilon.com/xv/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/xv.git
 Vcs-Git: git://anonscm.debian.org/collab-maint/xv.git
