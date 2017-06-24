@@ -9,7 +9,7 @@ Build-Depends:
  libtiff-dev,
  libx11-dev,
  zlib1g-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: http://www.trilon.com/xv/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/xv.git
 Vcs-Git: git://anonscm.debian.org/collab-maint/xv.git
